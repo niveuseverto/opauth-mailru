@@ -1,0 +1,28 @@
+{
+    "name": "opauth/mailru",
+    "description": "Mail.Ru strategy for Opauth",
+    "keywords": ["authentication","auth","oauth","mailru"],
+    "homepage": "http://opauth.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Filippov",
+            "email": "a.filippov@technodeep.net",
+            "homepage": ""
+        },
+        {
+            "name": "U-Zyn Chua",
+            "email": "chua@uzyn.com",
+            "homepage": "http://uzyn.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "opauth/opauth": "0.4.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "."
+        }
+    }
+}
